@@ -1,0 +1,210 @@
+body{
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(113, 202, 247);  
+   
+}
+
+.banner2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+#background img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1; 
+}
+#volunteer img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1; 
+}
+.container{
+    width: 140%;
+    margin: 20px auto;
+    overflow-y: auto;
+    max-height: 90vh;
+    padding: 20px;
+    background: rgb(94, 208, 231);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px
+}
+
+.card {
+    background: white;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    display: inline-block;
+    height: 900px;
+}
+
+.cardimg{
+    display: flex;
+    background: rgb(142, 193, 244);
+    width: 63px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    display: inline-block;
+    text-align: center;
+    height: 156px;
+
+}
+.btn {
+    width: 150px;
+    background: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+.bluebtn {
+    width: 150px;
+    background: rgb(71, 144, 239);
+    color: white;
+    padding: 10px 15px ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+.canclebtn {
+    width: 150px;
+    background: rgb(98, 104, 112);
+    color: white;
+    padding: 10px 15px ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+.text{
+    margin-top: -200px;
+    font-size: 12px;
+}
+.pharagraph{
+    position:absolute;bottom: 250px;
+    font-size: 13px;
+    font-family: 'Times New Roman', serif;
+}
+
+.textInBox{
+    font-family:  Georgia, serif;
+    font-size: 13px;
+    text-align: center;
+    
+}
+
+.raiting{
+    font-size: 40px;
+    color: #28a745;
+    font-weight: bold ;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+
+}
+.raitingBox{
+    width: 300px;
+    background: white;
+    height: 250px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3);
+    border-radius:20px ;
+    
+ 
+}
+
+
+.review-box {
+    background: #fdfeff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 200px;
+    height: 200px;
+  
+
+}
+
+.review-pharagraph{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+.feedback {
+    margin-top: 20px;
+    position: relative;top: -3740px;right: -1050px;
+   
+  
+}
+
+textarea{
+    width: 500px;
+    height: 200px;
+}
+
+.hidden-content{
+    display: none;
+}
+
+.see-more-btn{
+    color: rgb(12, 150, 242);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+details summary{
+    list-style: none;
+    outline: none;
+    display: inline;
+    color: blue;
+    cursor: pointer;
+}
+
+details{
+    display: inline ;
+}
+
+details[open] summary {
+    display: none; 
+}
+
+.review-container {
+    display: flex;
+    gap: 10px;
+}
+
+.review-label {
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]:checked + label {
+    transform: scale(1.3);
+}
